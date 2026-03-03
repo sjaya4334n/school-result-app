@@ -1,0 +1,279 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    transition: 0.3s;
+    background-color: #7b7d7f20;
+}
+
+h1{
+    text-align: center;
+    margin: 10px;
+}
+
+.total{
+    text-align: center;
+    padding-top: 40px;
+    font-size: medium;
+}
+h2{
+    text-align: center;
+    font-size: medium;
+}
+
+.Total{
+    text-align: center;
+    font-size: medium;
+    padding-bottom: 50px;
+}
+
+
+form{
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+    margin: 10px auto;
+    padding: 30px;
+    width: 250px;
+    background-color:#fbfbfb;
+    border-radius: 10px;
+}
+
+form input{
+    height: 30px;
+    width: 200px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding-left: 10px;
+    background-color: #7b7d7f20;
+    color:black;
+}
+
+button{
+    margin: auto;
+    width: 130px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    background-color: #fbfbfb;
+    transition: 1.5;
+}
+
+button:hover{
+    background-color: #0a0a0a;
+    color: #fbfbfb;
+}
+
+.ton{
+   padding:0px;
+   width: 24px;
+   border-radius: 3px;
+}
+
+.back{
+    background-color: #0a0a0a00;
+    border: none;
+}
+
+
+.table{
+     background-color:#fbfbfb;
+     border-radius: 8px;
+     width: 400px;
+     margin: 50px auto;
+     padding: 50px;
+}
+
+table{
+    margin:auto;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+th{
+    border: 1px  solid white;
+    padding:20px;
+    background-color:#7b7d7f;
+    text-align: center;
+}
+
+td{
+    border: 1px  solid white;
+    padding:20px;
+    background-color:#7b7d7f20;
+    text-align: center;
+}
+
+.error{
+    color: red;
+    text-align: center;
+    font-size: small;
+}
+
+img{
+    width: 25px;
+    position: relative;
+    left: 1270px;
+    bottom:40px ;
+    cursor: pointer;
+}
+
+
+
+.dark{
+    background:#0a0a0a;
+    color: white;
+
+    form{
+        background-color: #7b7d7f50;
+    }
+
+    form input{
+         background-color: #0a0a0a;
+         color: white;
+         border: 1px solid white;
+    }
+
+    button{
+        background-color:#0a0a0a;
+        color: white;
+    }
+    button:hover{
+        background-color: white;
+        color:#0a0a0a;
+        border: 1px solid black;
+    }
+
+    .back{
+    background-color: #0a0a0a00;
+    border: none;
+}
+
+    .table{
+        background-color:#7b7d7f50 ;
+    }
+    th{
+        background-color: #0a0a0a;
+        color: white;
+    }
+    td{
+      background-color: #0a0a0a70;
+        color: white;  
+    }
+
+    .error{
+        color: rgba(0, 0, 255, 0.75);
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+   *{
+        margin: auto;
+    }
+
+    h1{
+        font-size:xx-large; 
+    }
+
+    .total{
+    font-size:small;
+    }
+    h2{
+    font-size:small;
+    }
+    .Total{
+    font-size:small;
+}
+
+    img{
+    width: 30px;
+    position: relative;
+    left: 1000px;
+    bottom:50px ; 
+    }
+
+    form{
+        width: 400px;
+        gap:25px;
+    }
+    form input{
+        height: 30px;
+        width: 250px;
+    }
+
+    button{
+        width: 95px;
+        padding: 5px 10px;
+    }
+
+    .table{
+        padding: 30px 60px;
+        width: 350px;
+    }
+
+     table{
+        padding: 30px;
+     }
+     th,td{
+        padding: 20px;
+     }
+}
+
+
+
+@media (max-width:768px) {
+    *{
+        margin: auto;
+    }
+
+    h1{
+        font-size:large;   
+    }
+
+    .total{
+    font-size:small;
+    }
+    h2{
+    font-size:small;
+    }
+     .Total{
+    font-size:small;
+    }
+
+    img{
+    width: 15px;
+    position: relative;
+    left: 340px;
+    bottom:30px ; 
+    }
+
+    form{
+        width: 200px;
+        gap:15px;
+    }
+    form input{
+        height: 20px;
+        width: 150px;
+    }
+
+    button{
+        width: 95px;
+        padding: 5px 10px;
+    }
+
+    .table{
+        padding: 30px 6px;
+        width: 350px;
+    }
+
+     table{
+        padding: 10px;
+     }
+     th,td{
+        padding: 6px;
+     }
+}

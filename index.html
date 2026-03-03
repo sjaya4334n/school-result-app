@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student_rsult_app</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<div class="body">
+<body>
+
+    <header><h1>STUDERNT RESULT APP</h1></header>
+
+    <img src="image/moon.png" id="modeIcon" onclick="mode()">
+
+    <main>
+ 
+<h2>Enter your mark</h2>
+
+<form>
+    <input id="name" type="text" placeholder="name">
+    <input id="tam" type="text" placeholder="tamil mark">
+    <input id="eng" type="text" placeholder="english mark">
+    <input id="mat" type="text" placeholder="maths mark">
+    <input id="sci" type="text" placeholder="science mark">
+    <input id="soc" type="text" placeholder="social mark">
+    <p id="invalid" class="error"></p>
+    <button type="button" onclick="add()">add student</button>
+</form>
+
+<h2 class="total">Total student:<span id="count">0</span></h2>
+
+<div class="table">
+    <div class="box">
+<table >
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Total</th>
+            <th>Average</th>
+            <th>Grade</th>
+        </tr>
+    </thead>
+
+    <tbody id ="table">
+
+    </tbody>
+
+</table>
+</div>
+</div>
+
+<h2 class="Total">Total pass:<span id="pass">0</span></h2>
+
+    </main>
+
+    <script src="node.js"></script>
+    
+</body>
+</div>
+</html>
