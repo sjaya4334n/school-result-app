@@ -2,8 +2,6 @@
 
 This is a simple school result calculator created using HTML, CSS, and JavaScript.
 
-## Single page
-
 ## Features
 -Add student name and subject marks
 -Automatic calculation of: Total Marks, Average Marks, Grade (A / B / C / Fail)
